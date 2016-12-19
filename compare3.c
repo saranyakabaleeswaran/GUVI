@@ -5,7 +5,7 @@ int a,b,c;
 scanf("%d%d%d",&a,&b,&c);
 if(a>b)
 printf("a is greater");
-elseif(b>c)
+else if(b>c)
 printf("b is greater");
 else
 printf("c is greater");
