@@ -18,7 +18,7 @@ int main()
     if(result == num)
         printf( "Armstrong number",number);
     else
-        printf("s not an Armstrong number",number);
+        printf(" not an Armstrong number",number);
 
     return 0;
 }
