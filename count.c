@@ -1,14 +1,18 @@
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
-int n,count=0,t;
-scanf("%d",&n);
-t=n;
-while(n>0)
-{
-count++;
-n=n/10;
-}
-printf("no of integers in %d:%d\n",t,count);
-return 0;
+    long long n;
+    int count = 0;
+
+   
+    scanf("%lld", &n);
+
+    while(n != 0)
+    {
+     
+        n /= 10;
+        ++count;
+    }
+
+    printf("Num of digits: %d", count);
 }
