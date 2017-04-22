@@ -20,7 +20,7 @@ int main()
 
  
 
-    printf("Enter roman num (Valid digits are I, V, X, L, C, D, M):\n");
+  
 
     scanf("%s",val);
 
@@ -52,7 +52,7 @@ int main()
 
     }
 
-    printf("Its decimal value is : %ld", number);
+  
 
     return 0;
 
