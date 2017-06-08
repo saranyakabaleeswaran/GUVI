@@ -15,8 +15,8 @@ no1=no2;
 no2=temp;
 }
 if(no1==1)
-printf("\n the %d and %d is co-prime",t1,t2);
+printf(" co-prime");
 else
-printf("\n the %d and %d is not co-prime",t1,t2);
+printf(" not co-prime");
 getch();
 }
